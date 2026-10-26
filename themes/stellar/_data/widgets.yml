@@ -21,23 +21,6 @@ recent:
   rss: # /atom.xml # npm i hexo-generator-feed
   limit: 10 # Count of posts
 
-# 站点信息
-webinfo:
-  layout: webinfo
-  title: 站点信息
-  article: true # 文章篇数
-  wordcount: true # hexo-word-counter
-  runtime: 11/16/2021 23:00:00 # 建站时长，使用标准格式
-  sitetime: true # 上次更新时间
-  version: true # hexo-swpp
-
-welcome:
-  layout: markdown
-  title: 欢迎欢迎
-  content: |
-
-
-
 # 页面树（与当前页面强关联的上下篇文章列表）
 tree:
   layout: tree
@@ -51,7 +34,7 @@ toc:
   collapse: false # true / false / auto
   # 编辑本文按钮
   edit_this_page: # 从开头开始匹配替换
-    '_posts/': # https://github.com/xaoxuu/xaoxuu.com/blob/main/source/_posts/
+    '_posts/':
     'wiki/stellar/': https://github.com/xaoxuu/hexo-theme-stellar-docs/blob/main/
 
 # GitHub 用户信息
@@ -85,7 +68,6 @@ timeline:
   title: 近期动态
   api: # https://api.github.com/repos/xaoxuu/hexo-theme-stellar/issues
   user: # 默认显示所有人的数据，设置名称可过滤为仅显示某人的数据，多个名称用英文逗号隔开，不要加空格
-  type: # 默认不用写，如果是友链朋友圈数据请写 fcircle
   limit: # 默认通过 api 上增加 per_page 来设置，如果是友链朋友圈，可通过这个设置数量
 
 latest_comment:
@@ -100,4 +82,3 @@ tagtree:
   expand_all: false # 是否展开所有节点
   expand_active: true # 是否展开当前节点
   show_tagcon: true # 是否显示标签 icon
-
