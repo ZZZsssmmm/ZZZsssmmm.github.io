@@ -21,9 +21,9 @@ open_graph:
 ######## Sidebar ########
 # 左上角显示的 logo 区域，包含图标、大标题、副标题
 logo:
-  avatar: '[https://raw.weekdaycare.cn/raw/twikoo-blobcat/main/blobs/blobcatsnapped.png](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
-  title: '[F12](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
-  subtitle:  'F12 | 没有任何东西..... ' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
+  avatar: '[](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+  title: '[ZSM](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+  subtitle:  'ZSM | 没有任何东西..... ' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 
 # 侧边栏主功能导航菜单
 menubar:
@@ -47,7 +47,7 @@ site_tree:
   # 主页配置
   home:
     leftbar: recent
-    rightbar: w, welcome, e
+    rightbar: 
   # 博客列表页配置
   index_blog:
     base_dir: blog # 只影响自动生成的页面路径
@@ -194,7 +194,7 @@ search:
 
 ######## Comments ########
 comments:
-  service: twikoo
+  service: 
   comment_title: 快来参与讨论吧~
   lazyload: false # true / false
   # beaudar
@@ -240,7 +240,7 @@ comments:
   # https://twikoo.js.org/
   twikoo:
     js: https://gcore.jsdelivr.net/npm/twikoo@1.6/dist/twikoo.all.min.js # 建议锁定版本
-    envId: https://tl.f12ahs.top/
+    envId: 
 
   # Waline
   # https://waline.js.org/
