@@ -35,14 +35,7 @@ welcome:
   layout: markdown
   title: 欢迎欢迎
   content: |
-    这是一个位于宇宙深处的空间站🛰️没来由地诞生，没来由地成长，也许在缓缓前行，也许会被遗忘
-    <br>
-    **源码**
-    [Github](https://github.com/ayellowdogsays/blog)
-    <br>
-    **评论区**
-     有什么问题可以在/about下评论
-    <br>
+
 
 
 # 页面树（与当前页面强关联的上下篇文章列表）
